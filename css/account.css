@@ -1,0 +1,186 @@
+/*register page*/
+ #register{
+	position: static;
+	top:0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color:GhostWhite;
+	
+}
+#register .form-box{
+
+	margin:100px auto;
+	width: 50%;
+	height: auto;
+	border-radius: 10px;
+	padding: 20px;
+}
+label, a{
+	font-size: 1.5em;
+	color: #370467;
+}
+.form-box .text{
+	height: 50px;
+}
+
+.form-box p{
+	float: right;
+	margin-top: 8px;
+}
+.form-box p a{
+	text-align: center;
+	text-decoration: underline;
+	color: #370467;
+}
+.form-box p a:hover{
+	color: #bc1b8e;
+}
+.account .form-box .text:focus,
+ .account .form-box .text:hover{
+background-color: Ghostwhite;
+}
+.submit{
+	color: #fff;
+	width: 150px;
+	background-color: #130322;
+}
+.submit:hover{
+	background-color: #370467;
+	color: #bc1b8e;
+}
+
+/* for transition for login in register page*/
+ .login{
+ 	
+ 	z-index: 1000px;
+	position: absolute;
+	top:40%;
+	right: 0;
+	left: -100%;
+	bottom: 0;
+	background: rgba(0,0,0,0);
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all 2s;  
+	-moz-transition: all 2s ;
+	-ms-transition: all 2s ;
+	-o-transition: all 2s ;
+	transition: all 2s;
+	
+	
+}
+
+.active{
+	left:0;
+}
+
+.login .form-box{
+	margin:12% auto 5% auto;
+	width: 50%;
+	height:auto;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #370467;
+}
+.login .form-box label, p a{
+	color: #fff;
+}
+
+.login .form-box p a{
+	color: #fff;
+}
+
+.login .form-box p a:hover{
+	color: #bc1b8e;
+}
+.login .form-group h2{
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+
+
+@media screen and (max-width: 900px){
+  #login .form-box, #register .form-box{
+  	width: 70%;
+  	padding: 50px;
+  	height: auto;
+  }
+
+  label, h2, a{
+  	font-size: 1.2em;
+  }
+  .submit{
+  	width: auto;
+  }
+}
+h2{
+	text-align: center;
+}
+#register .form-box h2{
+	color: #370467;
+}
+
+/*......On login page.....*/
+
+#login-l{
+	position: static;
+	width: 100%;
+	height: auto;
+	
+}
+#login-l .form-box{
+
+	margin:100px auto;
+	width: 50%;
+	height: auto;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#login-l .form-box h2{
+	text-align: center;
+	margin: 0 0 4% 4%;
+}
+
+.register-l{
+	
+	position: absolute;
+	z-index: 1000px;
+	top: 0%;
+	left: -100%;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.0);
+	-webkit-transition: all 2s;  
+	-moz-transition: all 2s ;
+	-ms-transition: all 2s ;
+	-o-transition: all 2s ;
+	transition: all 2s;
+}	
+.active-l{
+	left:0;
+}
+
+.register-l .form-box{
+	margin:5% auto;
+	width: 50%;
+	height:auto;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #370467;
+}
+.register-l .form-box label, .register-l .form-box p a{
+	color: #fff;
+}
+.register-l .form-box p a:hover{
+	color: #bc1b8e;
+}
+
+.register-l .form-box h2{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}

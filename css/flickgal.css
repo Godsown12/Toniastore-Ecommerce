@@ -1,0 +1,90 @@
+
+/* ########### Styles other than FlickGal. ########### */
+
+/* ########### FlickGal ########### */
+
+.yourFlickgalWrap .item { width: 300px; }
+.yourFlickgalWrap .moving {
+  -webkit-transition: -webkit-transform .2s ease-out;
+  -moz-transition: -moz-transform .2s ease-out;
+}
+
+.yourFlickgalWrap .containerInner {
+  overflow: hidden;
+}
+.yourFlickgalWrap .containerInner .item {
+  display: inline-block;
+  margin: 0 5px;
+  -webkit-user-select: none;
+  user-select: none;
+  min-height: 50px;
+  background-color: #fff;
+  border: 5px solid rgb(82, 0, 54);
+  cursor:pointer;
+}
+.yourFlickgalWrap .containerInner img{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+}
+.yourFlickgalWrap .containerInner p {
+  text-align: left;
+  margin: 0 10px;
+}
+.yourFlickgalWrap .containerInner p b, .yourFlickgalWrap .containerInner span{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.yourFlickgalWrap .containerInner span {
+  background-color:rgb(253, 9, 9);
+  color: #fff;
+  padding: 5px;
+}
+.yourFlickgalWrap .nav {
+  text-align: center;
+}
+.yourFlickgalWrap .nav li {
+  display: inline-block;
+}
+
+.yourFlickgalWrap .nav li a {
+  text-decoration: none;
+}
+.yourFlickgalWrap .nav li a:hover {
+  background: #fff;
+}
+.yourFlickgalWrap .nav li a:active {
+  background: gray;
+}
+.yourFlickgalWrap .nav .selected a {
+  color: rgba(0,0,0,1);
+}
+.yourFlickgalWrap .arrows {
+  font-size:15px;
+  margin-bottom: 20px;
+}
+.yourFlickgalWrap .arrows a {
+  text-decoration: none;
+  color: #fff;
+}
+.yourFlickgalWrap .arrows a:hover {
+  background: lightgray;
+  color: rgba(0,0,0,1);
+}
+.yourFlickgalWrap .arrows a:active {
+  background: gray;
+}
+.yourFlickgalWrap .arrows a.off {
+  color: #fff;
+  background: none;
+}
+.yourFlickgalWrap .arrows .prev {
+  float: left;
+}
+.yourFlickgalWrap .arrows .next {
+  float: right;
+}
+
+@media screen and (max-width:900px){
+  .yourFlickgalWrap .item { width: 200px }
+}

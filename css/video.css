@@ -1,0 +1,48 @@
+.products button a{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.products button a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.video{
+  width: 98%;
+  margin: 50px auto;
+  border: 1px solid #010433;
+  padding: 0 20px;
+}
+
+.products-video {
+    border: 1px solid #010433;
+    margin:  50px 0;
+    padding: 0 ;
+}
+.products-video h4,p{
+    text-align: center;
+}
+.products-video .price{
+    font-weight: bolder;
+    font-size: 20px;
+  }
+.products-video button{
+    background-color: #010433;
+    width: 100%;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+}
+.products-video button:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.products-video video{
+    width: 100%;
+  
+}

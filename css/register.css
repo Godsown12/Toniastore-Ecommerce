@@ -1,0 +1,140 @@
+/*register page*/
+.row-register{
+	background-image: url(../img/hair3.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+ #register{
+	position: static;
+	top:0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+#register .form-box{
+
+	margin:30px 0 30px 55%;
+	width: 40%;
+	height: 100%;
+	border-radius: 10px;
+	padding: 20px;
+	border: 1px solid #fff;
+}
+.form-box label, a{
+	font-size: 1.5em;
+	color: #fff;
+}
+.form-box label{
+	color: #fff !important;
+}
+.form-box .text{
+	height: 50px;
+}
+
+.form-box .login-here a{
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+
+.account .form-box .text:focus,
+ .account .form-box .text:hover{
+background-color: Ghostwhite;
+}
+.register_button{
+	color: #fff;
+	width: 100%;
+	background-color: #130322;
+	margin-bottom: 30px;
+  }
+
+
+#register .form-box h2{
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
+
+}
+
+/* for transition for login in register page*/
+ .login{
+ 	
+ 	z-index: 1px;
+	position: absolute;
+	top:30%;
+	right: 0;
+	left: -100%;
+	bottom: 0;
+	background: rgba(0,0,0,0);
+	height: 100%;
+	width: 100%;
+	-webkit-transition: all 2s;  
+	-moz-transition: all 2s ;
+	-ms-transition: all 2s ;
+	-o-transition: all 2s ;
+	transition: all 2s;
+
+}
+
+.active{
+	left:0;
+}
+
+.login .form-box{
+	margin:12% auto 5% auto;
+	width: 50%;
+	height:auto;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #010433;
+}
+.login .form-box label, p a{
+	color: #fff;
+}
+
+.login .form-box p a{
+	color: #fff;
+}
+
+.login .form-group h2{
+	color: #fff;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+
+
+@media screen and (max-width: 900px){
+	.row-register{
+		background-position: center;
+		background-size: cover;
+	}
+	#register .form-box{
+		width: 90%;
+		margin:45px auto;
+	}
+
+	.form-box .text{
+		height: 30px;
+
+	}
+
+	.form-box h2{
+		text-align: center;
+		font-size: 1.2em;
+	}
+	.login .form-box{
+		margin:30% auto;
+		width: 98%;
+		height:auto;
+		border-radius: 10px;
+		padding: 10px;
+	}
+  }
+ @media screen and (max-width:640px){
+
+
+}

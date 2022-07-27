@@ -1,0 +1,39 @@
+.about-background{
+    background-image: url(../img/background.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.first-div , .second-div{
+    width: 98%;
+    padding: 20px;
+    margin: auto;
+    
+}
+.first-div h2{
+    text-align: center;
+    font-size: 4.0em;
+}
+.first-div p , .second-div p{
+    text-align: left;
+}
+
+.second-div p span:nth-child(1){
+    font-size: 28px;
+}
+
+.notee{
+    background-color: #010433;
+    color: blanchedalmond;
+}
+
+
+.second-div img{
+    margin: 100px;
+    
+}
+
+.hig{
+    min-height: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+}

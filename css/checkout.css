@@ -1,0 +1,238 @@
+#container{
+    margin: 40px 0 ;
+}
+
+.paystack-img{
+    width: 120px;
+    
+}
+
+.secure{
+   margin:   0 0 55px 0;
+   font-size: 25px;
+}
+.process-Steps{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 0 0;
+    padding: 20px;
+}
+.customer-user-form{
+    
+     margin: 5px auto;
+     padding: 10px;
+     width:80%;
+     background-color: #fcfcfc;
+     box-sizing:border-box;
+     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+     border : 1px solid #010433;
+ 
+}
+.customer-user-form p{
+    margin: 0 0 0 15px;
+}
+.customer-user-form a {
+    font-size: 13px;
+    color: blue;
+    text-decoration: none;
+}
+
+.guestButton{
+    margin: 24px 0;
+}
+.delivery{
+    margin: 50px 0 0 0;
+}
+.delivery-form{
+    margin: 20px  auto;
+    padding:10px;
+    width: 80%;
+    background-color: #fcfcfc;
+    box-sizing:border-box;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+    display: none;
+    border: 1px solid rgb(16, 0, 247);
+}
+.delivery-form p{
+    margin: 0 0 20px 0;
+}
+.delivery-form input{
+    margin: 0 0 20px 0;
+}
+.delivery-form button{
+    width: 100%;
+    margin-top: 5px;
+}
+.payment{
+    margin: 50px auto;
+}
+.payment-form{
+    display: none;
+    margin: 20px  auto;
+    padding:10px auto;
+    width: 80%;
+    background-color: #fcfcfc;
+    box-sizing:border-box;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+    
+}
+.payment-form p  {
+    margin: 20px 0 0 10px;
+}
+.payment-form button{
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#010433;
+    color: #fff;
+}
+#sucessful-billing{
+    margin: 20px  auto;
+    padding:10px;
+    width: 70%;
+    background-color: #fcfcfc;
+    box-sizing:border-box;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgb(16, 0, 247);
+}
+#sucessful-billing p{
+    margin: 20px auto;
+    padding: 10px auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+.order-summary{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 0 40px;
+    padding: 0;
+}
+.order-summary h4{
+    margin:15px;
+}
+#order-table{
+    margin: 0 auto;
+    width: 100%;
+    padding: 40px;
+}
+.item-pics img{
+    width: 50x;
+    height: 50px; 
+}
+.item-pics p {
+    float: left;
+}
+
+.right{
+    text-align: right;
+    padding-right: 10px;
+    
+}
+.quantity{
+    text-align: center;
+}
+.none{
+    height: 30px;
+    border: none !important;
+
+}
+.total{
+    height: 50px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+ 
+
+.order-note{
+    min-height: 40px;
+    border: 1px solid rgb(16, 0, 247); 
+    margin: 30px 0;
+    background-color: #010433;
+    color: #fff;
+}
+.order-note p {
+    padding: 0 0 0 16px;
+    text-align: left;
+}
+.small-amount{
+    display: none;
+}
+
+/*paystackClose*/
+.re-click{
+	margin: 40px 0;
+}
+.re-click p{
+	text-align: center;
+	font-size: 24px;
+}
+/*loader*/
+#loader-background{
+    z-index: 1;
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	height: 100%;
+    width: 100%;
+    display: none;
+}
+#loader { 
+    width: 230px; 
+    height: 230px; 
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 55px  0 0 55px;  
+    background-color: #010433;
+} 
+.animate__animated.animate__wobble {
+    --animate-duration: 1s;
+  }
+
+#loader img{
+    width: 110px;
+    height: 110px;
+}
+  
+.center { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto;
+} 
+
+@media screen and (max-width: 900px){
+    #sucessful-billing{
+        width: 96%;
+    }
+    .order-summary{
+        margin: 50px 0 0 0;
+    }
+
+    .payment-form .p{
+        margin-left: 50px;
+        padding-right:10px;
+        float: left;
+    } 
+
+}
+@media screen and (max-width:700px){
+    .payment-form .p{
+        padding-left: 0;
+        
+    }
+}
+@media screen and (max-width: 500px){
+    .customer-user-form{
+        width: 98%;
+    }
+    .delivery-form{
+        width: 98%;
+    }
+    .payment-form{
+        width: 98%;
+    }
+}
+

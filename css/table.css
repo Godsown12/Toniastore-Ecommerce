@@ -1,0 +1,188 @@
+ 
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  background-color: #010433;
+}
+
+th { 
+  background: #fff; 
+  color: #000; 
+  font-weight: bold; 
+  border: none !important;
+}
+td, th { 
+  padding: 6px; 
+  text-align: left; 
+}
+td{
+	color: #fff;
+	border-bottom: 1px solid #ccc; 
+}
+  /*for cart page*/
+
+  .cart-table{
+	  width: 95%;
+	  margin: 50px auto;
+  }
+  .cart-table th{
+	  padding: 15px !important;
+  }
+  .cart-table .sw{
+	 width: 10%;
+	 padding-top: 15px; 
+	border-left: 1px solid #000655;
+	  text-align: center;
+  }
+
+  .cart-table .description p{
+	text-align: left;
+  }
+
+  .cart-table input{
+	  width: 50%;
+	  margin: 18px 0 10px 0;
+  }
+
+  .cart-table tfoot{
+	height: 70px;
+	padding: 60px;
+  }
+
+.cart-table button:hover{
+	background-color: #571658;
+	color: #fff;
+}
+.cart-table a:hover{
+	background-color: #571658;
+	color: #fff;
+}
+@media screen and (max-width: 900px){
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	table{ 
+		background-color: #fff;
+	}
+	
+	 th, td, tr{
+		background-color: #010433;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { 
+		margin-top: 15px;
+	}
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 40%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	.cart-table .sw{
+		width: 100%; 
+		
+		 text-align: left;
+	 }
+	 .cart-table .pic{
+		padding-left: 30%; 
+		
+	 }
+	 .cart-table .sw img{
+		 width: 80px;
+		 height: 80px;
+	 }
+
+	 .cart-table input{
+		width: 100%;
+	}
+
+	tfoot {
+		display: none;
+		
+	}
+
+	.under-table{
+		display: block;
+	}
+	
+
+	/*for checkout page*/
+	#order-table{
+		padding: 4px;
+	}
+	.item-pics img{
+		display: none;
+	}
+	.item-pics p{
+		font-size: 12px;	
+	}
+	.big-amount{
+		display: none;
+	}
+	
+	#order-table table tbody td{
+		text-align: left;
+	}
+
+	.item-pics p {
+		float: none;
+	}
+	.small-amount{
+		display:block;
+		background-color: #010433;
+		color: #fff;
+		padding-top:30px;
+
+	}
+	.small-amount p{
+		text-align: left;
+	}
+	.small-amount p span{
+		float: right;
+	}
+
+	.quantity{
+		padding-right: 18%;
+	}
+/*
+	Label the data
+	*/
+	.cart-table td:nth-of-type(1):before { content: "Product"; }
+	.cart-table td:nth-of-type(2):before { content: "Description"; }
+	.cart-table td:nth-of-type(3):before { content: "Price"; }
+	.cart-table td:nth-of-type(4):before { content: "Quantity"; }
+	.cart-table td:nth-of-type(5):before { content: "Total"; }
+	/*for checkout page*/
+	#order-table td:nth-of-type(1):before { content: "Product"; }
+	#order-table td:nth-of-type(2):before { content: "Quantity"; }
+	#order-table td:nth-of-type(3):before { content: "Price"; }
+}
+@media screen and (max-width: 500px){
+	
+}

@@ -1,0 +1,78 @@
+.contact {
+	background-image: url(../img/water.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.form-box{
+	margin: 5% 5px 5% 20px;
+	width: 50%;
+	border: 1px solid #0e011a;
+	padding: 20px 10px;
+	background-color: #00082c;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.form-box .text{
+	height: 40px;
+}
+
+.form-box h2{
+	text-align: center;
+	font-size: 1.5em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+textarea{
+	min-height: 200px;
+}
+.submit{
+	color: #fff;
+	width: 150px;
+	background-color: #0e011a;
+	border: 1px solid #fff;
+}
+.submit:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+.address{
+	background-color: #00082c;
+	margin-top: 50px; 
+	min-height: 500px;
+	padding-top:20px;
+	color: #ffffff;
+}
+.address img{
+	width: 350px;
+	height: 200px;
+}
+
+@media screen and (max-width: 900px){
+	.contact h2{
+		font-size: 0.8em;
+	}
+	.form-box{
+		width: 98%;
+		margin: 20px auto;
+
+	}
+
+	.form-box label{
+	font-size: 0.8em;
+	}
+
+	.contact .text{
+		height: 30px;
+	}
+
+	textarea{
+		min-height: 70px;
+	}
+	.submit{
+		width: 100%;
+	}
+
+}
+

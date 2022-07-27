@@ -1,0 +1,75 @@
+<?php include 'includes/header.php'; ?>
+<div class="row privacy">
+    <h2 class="text-center">Our Privacy Policy</h2><hr/>
+    <h4>At ToniaStore, we care deeply about privacy. We believe in transparency, and we’re committed to being upfront about our privacy practices, including how we treat your personal information. 
+        We know you care about your privacy too, so we provide settings that allow you to choose how certain information is used by ToniaStore.
+    </h4><hr/><br>
+    <ol><li><a href="#accepting">Our Privacy Policy</a> </li>
+        <li><a href="#information">Information Collected or Received</a>  </li>
+        <li><a href="#messages">Messages from ToniaStore</a>  </li>
+        <li><a href="#uses">Information Uses, Sharing, &amp; Disclosure</a>  </li>
+        <li><a href="#security">Security</a>  </li>
+        <li><a href="#retention">Retention</a>  </li>
+        <li><a href="#emails">Emails &amp; Messages</a>  </li>
+        <li><a href="#changes">Privacy Policy Changes</a>  </li>
+    </ol> 
+    <hr><br><br>
+    <div class="note2">
+        <h4 id="accepting">1. Our Privacy Policy</h4>
+        <note>We process your personal information to run our business and provide our users with the Services. By accepting our Terms of Use (and in some jurisdictions, by acknowledging this policy), you confirm that you have read and understand this policy, including how and why we use your information. If you don’t want us to collect or process your personal information in the ways described in this policy, you shouldn’t use the Services. We are not responsible for the content or the privacy policies or practices of any of our members, websites hosted through Pattern by ToniaStore, or third-party websites and apps.<br>
+            ToniaStore’s <a href="articles-terms-of-use.php">Terms of Use</a> require all account owners to be at least 18 years of age. Minors under 18 years of age and at least 13 years of age are permitted to use ToniaStore's Services only if they have permission and direct supervision by the owner of the account. Children under age 13 are not permitted to use the Services. You are responsible for any and all account activity conducted by a minor on your account. We do not knowingly “sell,” as that term is defined under applicable law, including the Consumer Privacy Act, the personal information of minors. More information can be found in ToniaStore’s Minors Policy.<br>
+            By using the Services, you acknowledge that ToniaStore will use your information NIgeria and any other country where ToniaStore operates. Please be aware that the privacy laws and standards in certain countries, including the rights of authorities to access your personal information, may differ from those that apply in the country in which you reside. We will transfer personal information only to those countries to which we are permitted by law to transfer personal information as more fully described in the "Transfers" Section of this policy.
+        </note><br>
+        <h4 id="information">2. Information Collected or Received</h4>
+        <note>
+            In the course of providing our Services, we collect or receive your personal information in a few different ways. We obtain the categories of personal information listed below from the following sources: directly from you, for example, from forms you complete or during registration; indirectly from you based on your activity and interaction with our Services, or from the device or browser you use to access the Services; from our vendors and suppliers that help provide ToniaStore services you may interact with (such as, for example, for payments or customer support), and from our third party advertising and marketing partners. Often, you choose what information to provide, but sometimes we require certain information to provide you the Services. ToniaStore uses the personal information it receives and collects in accordance with the purposes described in this policy.<br>
+            You can also choose to provide information to a third party via ToniaStore’s API. While users of ToniaStore’s API are required to follow ToniaStore’s API Terms of Use, including having appropriate privacy and security controls, ToniaStore does not have a direct partner relationship with these third parties and their processing of information is subject to their own privacy policies. You should understand the privacy and security practices of any third party before you share information with them. <br>
+            Profile: You may provide your name and other personal information (such as birthday, gender, location) in connection with your account and activity. You can edit or remove this information through your account settings. The name associated with your account (which you may modify in your account settings) is publicly displayed and connected to your ToniaStore activity. Other members may see the date you joined; ratings, reviews and information relating to items you review, and related photos for items you purchased or sold; your profile information; items you listed for sale; your shop pages and policies; your Favorites, followers, and those you follow; sold item listings and the number of items sold; comments you post in our community spaces; and information you decide to share via social networks.<br>
+            Registration, Account Setup, Service Usage: In order to use the Services, will need to submit a valid email address. If you register, you will need to submit a name associated with your account. You may modify that name through your account settings. You need to provide this information to enable us to provide you with the Services. Additional information, such as a shop name, billing and payment information (including billing contact name, address, telephone number, credit card information), a telephone number, and/or a physical postal address, may be necessary in order for us to provide a particular service. For example, we need a physical postal address if you are buying something on the Site for delivery. As an ToniaStore seller, if you choose to use our payment service ("ToniaStore Payments"), ToniaStore requires your full name, social security number, identification ID 
+            or tax ID, date of birth, bank account information, photograph, credit card information, and/or other proof of identification in order to verify your identity, provide this service to you, and comply with applicable law. For both buyers and sellers, ToniaStore requires this information from you in order to provide you with the Services (including, to verify ownership of an account, to mitigate fraud and abuse, to comply with regulatory 
+            obligations, or to complete a transaction as a buyer or seller). We may store credit card information for both billing and payment purposes. Members in certain countries can elect to save their credit card information to facilitate checkout for future purchases.<br>
+            Non-Member Information: ToniaStore receives or obtains information (for example, an email address or IP address) about a person who is not yet a registered ToniaStore member (a “non-member”) in connection with certain ToniaStore features, such as when a non-member chooses to subscribe to an ToniaStore newsletter, a member invites a non-member to visit the Site, a member uploads non-member information using the contact uploader feature, a non-member engages in a transaction, a member sends a gift card code to a non-member, or a non-member uses Guest Checkout to make a purchase. Non-member information is used only for the purposes disclosed when it was submitted to ToniaStore, for purposes necessary to the functioning of ToniaStore's Services 
+        </note>
+        <h4 id="messages">3. Messages</h4>
+        <note>
+            On occasion, ToniaStore will need to contact you. Primarily, these messages are delivered by email, 
+            ToniaStore Messages, or by push notifications for a variety of reasons, including marketing, transactions, and service update purposes. If you no longer wish to receive push notifications, you can disable them at device level. You can opt out of receiving marketing communications via email or Messages in your account settings or by following the unsubscribe link in any marketing email you receive. To ensure you properly receive notifications, we will need to collect certain information about your device, such as operating system and user identification information. Every account is required to keep a valid email address on file to receive messages. ToniaStore may also contact you by telephone to provide member support or for transaction-related purposes if you request that we call you. <br>Additionally, and with your consent where required by applicable law, ToniaStore may send you an SMS (or similar) message, or reach out to you by telephone, in order to provide you with customer support, for research or 
+            feedback, or to provide you with information about products and features that you may find of interest. You can update your contact preferences in your account settings.<br><br>
+            Some messages from ToniaStore are service-related and necessary for members and Guest Checkout users. 
+            You understand and agree that ToniaStore can send you non-marketing emails, ToniaStore Messages, or messages, 
+            such as those related to transactions, your account, security, or product changes. Examples of service-related messages include an email address confirmation/welcome email when you register your account, notification of an order, service availability, modification of key features or functions, relaying Messages with buyers, and correspondence with ToniaStore’s Support team (including by chat interface or the other methods of communication as described above).<br><br>When you register for an account, subscribe to a newsletter, or provide us with your email address or phone number such as for a Guest Checkout purchase, you receive notice of and agree (in some jurisdictions and situations, by an additional unambiguous consent) to receive marketing emails and messages from us. You can unsubscribe at any time from marketing emails or messages through the opt-out link included in marketing emails or messages. Members can also control which marketing emails or messages they receive from ToniaStore through their account settings. 
+            Please note that some changes to your account settings may take a few days to take effect.
+        </note>
+        <h4 id="uses">4. Information Uses, Sharing, &amp; Disclosure</h4>
+        <note>
+            We respect your privacy. ToniaStore will not disclose your name, email address, or other personal information to third parties without your consent, except as specified in this policy.<br><br>
+            You can control your privacy settings through the opt-out buttons in your account settings privacy tab, and the Privacy Settings link in the footer of most site pages and our homepage. Please note that some changes to your privacy settings may take a few 
+            days to take effect. We or our sellers may advertise our Services or our sellers’ products through a variety of different mediums and rely on your consent to do so off-site.
+        </note>
+        <h4 id="security">5. Security</h4>
+        <note>
+            The security of your personal information is important to us. We follow generally accepted industry
+            standards to protect the personal information submitted to us, both during transmission and after it is received, for example encryption is used for certain information (such as credit card numbers) using TLS (transport layer security). Unfortunately, no method of transmission over the internet or method of electronic storage is 100% secure. Therefore, while we strive to protect your personal information, we cannot guarantee its absolute security.<br><br>
+            Your account information is protected by a password. It is important that you protect against unauthorized access to your account and information by choosing your password carefully and by keeping your password and computer secure, such as by signing out after using the Services. ToniaStore offers advanced security features and settings for members, such as two-factor authentication for signing in, and sign in history and notifications; you can view more information in your account settings.
+        </note>
+        <h4 id="retention">6. Retention</h4>
+        <note>
+            ToniaStore will retain your information only for as long as is necessary for the purposes set out in this policy, for as long as your account is active (i.e., for the lifetime of your ToniaStore member account), or as needed to provide the Services to you. If you no longer want ToniaStore to use your information to provide the Services to you, you may close your account. ToniaStore will retain and use your information to the extent necessary to comply
+            with our legal obligations (for example, if we are required to retain your information to comply with applicable tax/revenue laws), resolve disputes, enforce our agreements, and as otherwise described in this policy. In addition, ToniaStore sellers may also be required to retain and use your information in order to comply with their own legal obligations. Please note that closing your account may not free up your email address, username, or shop name
+            (if any) for reuse on a new account. We also retain log files for internal analysis purposes. These log files are generally retained for a brief period of time, except in cases where they are used for site safety and security, to improve site functionality, or we are legally obligated to retain them for longer time periods.
+        </note>
+        <h4 id="emails">7. Email & Messages</h4>
+        <note>
+            You may also control the receipt of certain types of communications from ToniaStore in your account settings. ToniaStore may send you messages about the Services or your activity. Some of these messages are required,
+            service-related messages for members (such as transactional messages or legal notices). 
+        </note>
+        <h4 id="changes">8. Privacy Policy Changes</h4>
+        <note>
+            We may amend or update this policy from time to time. If we believe that the changes are material,
+            we’ll let you know by doing one (or more) of the following: (i) posting the changes on or through the Services, (ii) sending you an email or message about the changes, or (iii) posting an update in the version notes on the Apps’ platform. We encourage you to check back regularly and review any updates.
+        </note><br><br>
+        <p>Thank You. Developed by Ajodo Godsown Kole.</p>
+    </div>
+
+</div>
+<?php include 'includes/footer.php';?>

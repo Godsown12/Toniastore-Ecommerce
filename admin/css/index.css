@@ -1,0 +1,162 @@
+*{
+	font-family: 'KoHo', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+.container, .row, .content{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.e{
+	border: 1px solid red;
+	margin-bottom: 50px;
+}
+
+/*.wrapper{
+	margin: 5% 0;
+}*/
+.toniastore{
+	margin: 0 0 0 20px;
+	border: 1px solid red;
+}
+.table-auto{
+	width: auto;
+	margin: 0 auto; 
+}
+.errors-ul{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #fcb0e2;
+	border-radius: 5px;
+}
+
+.errors-li{
+	padding-top: 10px;
+	font-size: 1em;
+	color: #c90000;
+	list-style: none;
+
+}
+
+.close{
+	color: #c90000;
+	margin: 8px 5px 0 0;
+	cursor: pointer;
+}
+
+#add-product-btn{
+	margin: 10px 10px 20px 0;
+}
+
+form .add-products{
+	
+	margin-right: 20px;
+
+}
+
+form .saved-image img{
+	width: 200px;
+	height: auto;
+}
+/*loging form....*/
+.login-background{
+	background-image: url(../img/hair8.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#login-form{
+	border: 1px solid blue;
+	width: 40%;
+	height: auto;
+	margin: 15% auto;
+	padding: 0 80px 10px 80px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-o-border-radius: 15px;
+	font-weight: bolder;
+	box-shadow: inset -7px -7px rgba(0,0,0,0.5);
+	color: #fff;
+}
+
+#login-form p{
+	float: right;
+	margin-top: 4px;
+}
+
+#login-form .submit input{
+	width: 80px;
+	height: 30px;
+	background-color: #337AB7;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+#login-form .flash p{
+	margin: 10px 0;
+}
+
+footer{
+	margin-top: 30px;
+	background-color: black;
+	color: #fff;
+	border-top: 1px solid #fff;
+	width: 100%;
+	min-height: 100px;
+}
+footer p{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.clear{
+	clear: both;
+}
+/* table in admin */
+
+.yellow th{
+	background-color: rgb(255, 255, 2);
+	
+}
+
+.orange{
+	background-color: orange;
+}
+
+.red{
+	background-color: rgb(174, 255, 142);
+}
+
+@media screen and (max-width: 800px){
+		.form-brand-submit{
+			margin:1% 0 0 -2%;
+		}
+		form .add-products, input, a{
+			width: 100%;
+			margin-top: 5px;
+		}
+		#login-form{
+			width: 70%;
+		}
+
+}
+.info_index{
+	color: #FF6600;
+}
+
+@media screen and (max-width: 500px){
+	#login-form{
+			width: 100%;
+			padding: 20px;
+		}
+}

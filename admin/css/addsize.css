@@ -1,0 +1,17 @@
+.body{
+    border: 2px solid blueviolet;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+.adbtn button{
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 900px){
+    .rem{
+        margin:0 0 20px 0;
+    }
+}

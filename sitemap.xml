@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://toniastore.com/toniastore/</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/index</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/contact</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/cart</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/register</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/login</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/cart.php</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/category?cat=1</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/category?cat=2</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/category?cat=3</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/about</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/articles-terms-of-use</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/articles-policy</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/index.php</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/clip?video=1&amp;cat=1</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/clip?video=1&amp;cat=2</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/clip?video=1&amp;cat=3</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://toniastore.com/toniastore/articles-terms-of-use.php</loc>
+  <lastmod>2020-06-17T10:51:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

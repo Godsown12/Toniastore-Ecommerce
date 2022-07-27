@@ -1,0 +1,120 @@
+footer{
+	width: 100%;
+	height:auto;
+	background-color:#2E2E2E;
+	color: #fff;
+}
+
+.footer-top{
+	margin-top: 20px;
+}
+
+footer h4{
+	text-align: center;
+	margin:20px 0;
+}
+footer a{
+	font-size: 14px;
+}
+
+footer ul li{
+	list-style: none;
+	text-align: center;
+}
+footer .join-us ul li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+.join-us ul li a i {
+	font-size: 30px;
+}
+.footer-bottom{
+	height: auto;
+	text-align: center;background-color: #00010e;
+}
+
+.footer-bottom ul{
+	margin: 76px 0 0 0 ;
+	padding-right: 10px;
+	float:right;
+
+}
+.footer-bottom ul li{
+	float: left;
+	margin-left: 10px;
+}
+.footer-bottom ul li a span{
+	text-decoration: underline;
+}
+.footer-top a:hover, .footer-bottom ul li a span:hover {
+	color: hotpink;
+}
+.news-letter form {
+	/* This bit sets up the horizontal layout */
+	display:flex;
+	flex-direction:row;
+	
+	/* This bit draws the box around it */
+	border:1px solid grey;
+  
+	/* I've used padding so you can see the edges of the elements. */
+	padding:2px;
+  }
+  
+  .news-letter input {
+	/* Tell the input to use all the available space */
+	flex-grow:2;
+	/* And hide the input's outline, so the form looks like the outline */
+	border:none;
+  }
+  
+  .news-letter input:focus {
+	/* removing the input focus blue box. Put this on the form if you like. */
+	outline: none;
+  }
+  
+  .news-letter button {
+	/* Just a little styling to make it pretty */
+	border:1px solid blue;
+	background:rgb(2, 2, 80);
+	color:white;
+  }
+@media screen and (max-width:900px){
+	.join-us{
+		margin-bottom: 50px;
+	}
+	.join-us ul li a i {
+		margin-bottom: 20px;
+	}
+	footer ul li, footer h4{
+		list-style: none;
+		text-align: left;
+	}
+	
+}
+
+/* terms of use */
+
+.terms-of-use,.privacy{
+	width: 98%;
+	margin: 0 auto;
+	border:1px dashed #010433;
+	padding: 20px;
+	border-top: none;
+	border-bottom:none;
+}
+
+.terms-of-use ol li a,.terms-of-use a, .privacy ol li a{
+	color: #000;
+	text-decoration: underline;
+}
+
+.terms-of-use .note,.privacy .note2{
+	text-align: justify;
+}
+.terms-of-use .warrant{
+	border: 2px dotted #010433;
+	text-align: justify;
+	padding:20px;
+}
